@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -d '{"name":"mLab Support", "email": "support@mlab.com"}' http://gentle-garden-10743.herokuapp.com/api/contacts
