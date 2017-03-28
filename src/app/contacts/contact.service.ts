@@ -5,8 +5,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class ContactService {
-
- private contactsUrl = '/api/contacts';
+    private contactsUrl = '/api/contacts';
 
     constructor (private http: Http) {}
 
@@ -50,5 +49,4 @@ export class ContactService {
       error.status ? `${error.status} - ${error.statusText}` : 'Server error';
       console.error(errMsg); // log to console instead
     }
-
 }
